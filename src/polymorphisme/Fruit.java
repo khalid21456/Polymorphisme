@@ -11,5 +11,8 @@ public abstract class Fruit {
 	public void afficher() {
 		System.out.println("C'est un fruit");
 	}
-	
+;
+	public void change() {
+		System.out.println("Change Fruit");
+	}
 }
