@@ -20,7 +20,7 @@ public class App {
 		fruits[3] = f2;
 		
 		for(int i=0;i<5;i++) {
-			if(fruits[i] instanceof Orange) {
+			if(fruits[i] instanceof Orange) {       //L'oppérateur instanceof
 				((Orange)fruits[i]).afficherPoids();
 			}
 		}
